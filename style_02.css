@@ -1,0 +1,245 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+@media only screen and (max-width: 768px) {
+.carousel-item {
+height:500px;
+}
+.carousel-item.active {
+	height:500px;
+}
+.w-100{
+width:889px!important;
+margin-left: -150px;}
+}
+@media only screen and (min-width: 768px) {
+	.carousel-item {
+height:800px;
+}
+.carousel-item.active {
+	height:800px;
+}
+.d-block w-100{
+height:800px;}
+}
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+/*ALINHAMENTO*/
+.lead {
+	text-align: justify;
+}
+
+/* CONTATO */
+@media only screen and (max-width: 768px) {
+#contact-pic {
+	visibility: hidden;
+	width:1px!important;
+	height:1px!important;
+}
+#contact-pic-div {
+	width:1px!important;
+	height:1px!important;
+}
+#contact-form-div {
+	margin-top: -153px;
+}
+}
+	
+/*BACKGROUND*/
+#body-a {
+background-color: #f1f1f1;
+    background-image: url(img/back_01.jpg);
+    background-position: center;
+    background-position-y: top;
+}
+#body-b {
+background-image: url(img/back_b04.jpg);
+    background-position: center;
+    background-position-y: -23px;
+    background-attachment: fixed;
+}
+@media only screen and (max-width: 800px) {
+    #body-a {
+        background-image: url(img/back_b04.jpg);
+		background-attachment: fixed   }
+}
+/*ICONES*/
+@media only screen and (max-width:768px) {
+.head-ico {
+height:100px;
+width:100px;
+}
+#head-ico-div {
+	margin-left: auto;
+    margin-right: auto;
+    width: 309px;
+}
+}
+/*VIDEO - ABOUT US*/
+.youtube-video {
+width: 854px; 
+height: 480px;
+}
+
+@media only screen and (max-width: 768px) {
+   
+	.youtube-video {
+		width:480px;
+		height:270px;
+}}
+
+/*FONT*/
+@font-face {
+    font-family: MontserratAlternates-Light;
+    src: url("font/MontserratAlternates-Light.otf") format("opentype");
+}
+
+@font-face {
+	font-family: Montserrat-Light;
+	src: url("font/Montserrat-Light.otf") format("opentype");
+}
+
+.navbar-brand {
+font-family: "MontserratAlternates-Light";
+}
+.nav-item {
+font-family: "Montserrat-Light";
+}
+
+h1, h2, h6 {
+	font-family: "MontserratAlternates-Light";
+}
+
+p {
+	font-family: "Montserrat-Light";
+}
+	
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+.foot{
+  text-align: center;
+}
+/*Nav Bar*/
+.bg-dark {
+background-color: #16302b!important;}
+
+/*Botões*/
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #b2ad97;
+    border-color: #bbb593;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #b2ad97;
+    border-color: #bbb593;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #bbb593;
+border-color: #d2ceb7;}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #4f3b2d;
+    border-color: #715541;
+}
+	
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #715541;
+border-color: #85644c;}
+
+/*LINK*/
+a {
+	color:#4f3b2d
+}
+a:hover {
+    color: #bbb597;
+text-decoration: underline;}
+
+/*CAMINHO DA PÁGINA*/
+.road {
+float: left;
+    clear: both;
+    text-align: left;
+    margin-top: 40px;
+	margin-left: 0px;
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    
+  }
+
+.form-group{
+  color:grey;
+
+}
+/* CSS ADICIONADO */
+.sobre{
+  text-align: center;
+}
